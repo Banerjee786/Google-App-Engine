@@ -1,0 +1,7 @@
+Flask==0.12.2
+gunicorn==19.7.1
+google-cloud
+requests==2.18.4
+pandas
+
+

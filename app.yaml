@@ -1,0 +1,7 @@
+runtime: python
+env: flex
+entrypoint: gunicorn -b :$PORT main3:app
+
+
+env_variables:
+    CLOUD_STORAGE_BUCKET: sample-201903.appspot.com
